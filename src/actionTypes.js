@@ -1,0 +1,5 @@
+export const SELECT_FIELD = 'SELECT_FIELD';
+export const UNSELECT_FIELD = 'UNSELECT_FIELD';
+export const ADD_FILTER = 'ADD_FILTER';
+export const REMOVE_FILTER = 'REMOVE_FILTER';
+export const CLEAR_FILTERS = 'CLEAR_FILTERS';

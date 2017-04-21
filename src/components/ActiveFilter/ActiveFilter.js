@@ -3,21 +3,19 @@ import React, { PropTypes } from 'react';
 export default class ActiveFilter extends React.Component {
   constructor(props) {
     super(props)
-    // this.onRemoveClick = this.onRemoveClick.bind(this);
+    this.onRemoveClick = this.onRemoveClick.bind(this);
   }
 
-  // let onRemoveClick = (e) => {
-  //   console.log(e)
-  //   this.target.remove()
-  // }
+  let onRemoveClick = (e) => {
+    console.log(e)
+    this.target.remove()
+  }
 
   render() {
     return(
         <div>
           {this.props.label}
-          <a>
-            // onClick={onRemoveClick}>
-            Close</a>
+          <a onClick={onRemoveClick}>Close</a>
           <style jsx>{`
             div {
               display: inline;
